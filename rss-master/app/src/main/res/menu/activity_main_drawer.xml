@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_add_news"
+            android:icon="@drawable/icon_add_news"
+            android:title="Add News" />
+        <item
+            android:id="@+id/nav_add_title"
+            android:icon="@drawable/icon_add_title"
+            android:title="Add Title" />
+        <item
+            android:id="@+id/nav_edit_news"
+            android:icon="@drawable/icon_edit_news"
+            android:title="Edit News" />
+        <item
+            android:id="@+id/nav_edit_font"
+            android:icon="@drawable/icon_edit_font"
+            android:title="Edit Font Size" />
+    </group>
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/tvItem"
+            android:title="Báo khác" />
+
+        <item
+            android:id="@+id/nav_dan_tri"
+            android:title="Dân Trí"
+            android:icon="@drawable/icon_go"/>
+        <item
+            android:id="@+id/nav_doi_song"
+            android:title="Đời Sống"
+            android:icon="@drawable/icon_go"/>
+        <item
+            android:id="@+id/nav_phap_luat"
+            android:title="Pháp Luật"
+            android:icon="@drawable/icon_go"/>
+        <item
+            android:id="@+id/nav_game_k"
+            android:title="GameK"
+            android:icon="@drawable/icon_go"/>
+        <item
+            android:id="@+id/nav_kenh_14"
+            android:title="Kênh 14"
+            android:icon="@drawable/icon_go"/>
+        <item
+            android:id="@+id/nav_soha_news"
+            android:title="Soha News"
+            android:icon="@drawable/icon_go"/>
+    </group>
+
+</menu>
